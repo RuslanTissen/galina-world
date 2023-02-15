@@ -1,0 +1,11 @@
+.picture{
+	// min-width: 100vw;
+	.picture-container{
+		max-height: 50vh;
+		img{
+			width: 100%;
+			max-height: inherit;
+			object-fit: cover;
+		}
+	}
+}

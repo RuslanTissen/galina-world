@@ -1,0 +1,61 @@
+.nav {
+  width: 100vw;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: rgb(84, 84, 84);
+  position: fixed;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: white;
+}
+.nav ul li a {
+  color: white;
+  transition: all 0.2s;
+}
+.nav ul li a:hover {
+  color: rgb(165, 163, 163);
+}
+.nav .logo {
+  width: 1.5em;
+}
+.nav .logo img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transition: all 0.2s;
+}
+.nav .logo img:hover {
+  opacity: 0.5;
+}
+.nav svg {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .nav .ul-first {
+    justify-content: space-between;
+    padding: 0 25px;
+  }
+  .nav .ul-first li:not(:first-child) {
+    display: none;
+  }
+  .nav svg {
+    display: inline-block;
+  }
+}
+.nav .ul-second {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+@media (min-width: 1200px) {
+  .nav .ul-second {
+    display: none;
+  }
+}/*# sourceMappingURL=Header.css.map */

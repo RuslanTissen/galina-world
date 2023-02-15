@@ -1,0 +1,9 @@
+.picture .picture-container {
+  max-height: 50vh;
+}
+.picture .picture-container img {
+  width: 100%;
+  max-height: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=Picture.css.map */

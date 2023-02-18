@@ -3,7 +3,7 @@ import './Footer.scss'
 import {GrFacebookOption} from 'react-icons/gr'
 import {BsTwitter} from 'react-icons/bs'
 import {FaLinkedinIn, FaTelegram} from 'react-icons/fa'
-import AnchorLink from 'react-anchor-link-smooth-scroll-v2';
+// import AnchorLink from 'react-anchor-link-smooth-scroll-v2';
 
 export default function Footer() {
 	return (
@@ -17,16 +17,6 @@ export default function Footer() {
 				<a href="#"><FaTelegram/></a>
 			</div>
 
-			{/* <div className="footer-adress">
-
-			</div>
-			
-			<div className="footer-contactes">
-				<p></p>
-				<p></p>
-				<p></p>
-				<p></p>
-			</div> */}
 		</div>
 	)
 }

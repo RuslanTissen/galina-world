@@ -22,18 +22,18 @@
 			}
 		}
 	}
-		.logo{
-			width: 1.5em;
-			img{
-				width: 100%;
-				object-fit: contain;
-				transition: all .2s;
+		svg{
+			color: white;
+			display: flex;
+			align-items: center;
+			transition: all .2s;
 				&:hover{
 					opacity: .5;
-				}
 			}
 		}
-		svg{display: none;}
+		svg:not(:first-child){
+			display: none;
+		}
 	@media (max-width:1200px) {
 		.ul-first{
 			justify-content: space-between;
@@ -42,7 +42,8 @@
 		.ul-first li:not(:first-child){
 			display: none;
 		}
-		svg{
+		svg,
+		svg:not(:first-child){
 			display: inline-block;
 		}	
 	}

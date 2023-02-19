@@ -1,5 +1,6 @@
 .section{
-		@media (max-width: 1200px) {
+		// @media (max-width: 1200px)
+		//  {
 			.section-text{
 				padding: 15px;
 				height: fit-content;
@@ -10,10 +11,10 @@
 				object-fit: cover;
 				padding: 15px 50px;
 			}
-		}
+		// }
 		@media (min-width: 1200px) {
-			max-width: 1500px;
-			max-height: 300px;
+			max-width: 2000px;
+			max-height: 500px;
 			display: flex;
 			align-items: center;
 			margin: 70px auto;
@@ -21,7 +22,8 @@
 				max-width: 60%;
 				max-height: inherit;
 				font-size: 1.5em;
-				padding: 0 1em;
+				padding: 0 4em 0 1em;
+				font-family: 'Montserrat', sans-serif;
 				.title{
 					font-size: 150%;
 				}
@@ -32,7 +34,7 @@
 			}
 			.img{
 			width: 40%;
-			max-height:300px;
+			max-height:500px;
 			object-fit: contain;
 			}
 		}

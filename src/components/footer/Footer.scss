@@ -29,4 +29,22 @@
 			margin-right: 10px;
 		}
 	}
+	.studio{
+		display: flex;
+		justify-content: center;
+		a{
+			display: flex;
+			align-items: center;
+			color: white;
+			font-size: .7em;
+			// padding: 5px;
+			img{
+				width: 60px;
+				height: 60px;
+				margin: 0 5px;
+				object-fit: cover;
+				padding-bottom: 10px;
+			}
+		}
+	}
 }

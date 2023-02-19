@@ -9,7 +9,7 @@ export default function Pictuer() {
 				<img src={home} alt="" />
 			</div>
 			<div className="moto">
-				<h1>HERE TO HELP YOU FIND YOUR DREAM HOME!</h1>
+				<h1>¡AQUÍ PARA AYUDARLE A ENCONTRAR LA CASA DE SUS SUEÑOS!</h1>
 			</div>
 		</div>
 	)

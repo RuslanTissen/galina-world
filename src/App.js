@@ -8,6 +8,8 @@ import thinking from "./images/thinking.png"
 import idea from "./images/idea.png"
 import kontract from "./images/contract.png"
 import personal from "./images/personal.png"
+// import wa from "./images/WhatsAppButtonGreenMedium.png"
+import { BsWhatsapp } from "react-icons/bs"
 
 function App() {
 	// const about = document.getElementsByClassName('')
@@ -31,8 +33,8 @@ function App() {
 			<div id={'contacto'}>
 				<MidSection
 					image={kontract}
-					// a={<a aria-label="Chat on WhatsApp" href="https://wa.me/5491145579810"> <img alt="Chat on WhatsApp" src="../images/" /> </a>}
-					text={"Nuestro personal calificado llevará a cabo la transacción desde el inicio hasta la firma del contrato. ¡Hasta la entrega de las llaves de tu nuevo nido!"} />
+					text={"Nuestro personal calificado llevará a cabo la transacción desde el inicio hasta la firma del contrato. ¡Hasta la entrega de las llaves de tu nuevo nido!"}
+					a={<a aria-label="Chat on WhatsApp" target="_blank" href="https://wa.me/5491145579810"><BsWhatsapp style={{margin:"5px 0", width:"2em", height:"2em", color:"rgb(0,168,132)"}}/> </a>} />
 			</div>
 			<div id={"personal"}>
 				<MidSection
@@ -40,7 +42,7 @@ function App() {
 					title={"Personal."}
 					text={"Nuestro amable equipo está bien educado y capacitado. ¡Y nuestras ofertas exitosas hablan por sí solas! ¡Y nuestra súper profesional Galina lleva a todo el equipo al éxito!"} />
 			</div>
-			
+
 			<Footer />
 		</div>
 	);

@@ -18,28 +18,29 @@ function App() {
 			<Pictuer />
 			<div id={'alq'} >
 				<MidSection
+					image={thinking}
 					title={"Alquiler o Venta?"}
-					text={"Quiere comprar una casa o un apartamento, o tal vez alquilar una casa adosada. ¿Y no sabes por dónde empezar? ¡Entonces estás en la compañía adecuada! Te ayudaremos a elegir una zona con un buen colegio para tus hijos, con una ubicación conveniente y rápido acceso al metro y a los intercambiadores de transporte."}
-					image={thinking} />
+					text={"Quiere comprar una casa o un apartamento, o tal vez alquilar una casa adosada. ¿Y no sabes por dónde empezar? ¡Entonces estás en la compañía adecuada! Te ayudaremos a elegir una zona con un buen colegio para tus hijos, con una ubicación conveniente y rápido acceso al metro y a los intercambiadores de transporte."} />
 			</div>
 			<div id={'detalles'} >
 				<MidSection
+					image={idea}
 					// title={"Open Time"}
-					text={"Y así encontró la casa de sus sueños, pero el procedimiento de registro no le resulta familiar. ¡Ningún problema! ¡Te contamos todos los detalles y te ayudamos con los trámites y el contrato!"}
-					image={idea} />
+					text={"Y así encontró la casa de sus sueños, pero el procedimiento de registro no le resulta familiar. ¡Ningún problema! ¡Te contamos todos los detalles y te ayudamos con los trámites y el contrato!"} />
 			</div>
 			<div id={'contacto'}>
 				<MidSection
-					// title={"Adress"}
-					text={"Nuestro personal calificado llevará a cabo la transacción desde el inicio hasta la firma del contrato. ¡Hasta la entrega de las llaves de tu nuevo nido!"}
-					image={kontract} />
+					image={kontract}
+					// a={<a aria-label="Chat on WhatsApp" href="https://wa.me/5491145579810"> <img alt="Chat on WhatsApp" src="../images/" /> </a>}
+					text={"Nuestro personal calificado llevará a cabo la transacción desde el inicio hasta la firma del contrato. ¡Hasta la entrega de las llaves de tu nuevo nido!"} />
 			</div>
 			<div id={"personal"}>
 				<MidSection
+					image={personal}
 					title={"Personal."}
-					text={"Nuestro amable equipo está bien educado y capacitado. ¡Y nuestras ofertas exitosas hablan por sí solas! ¡Y nuestra súper profesional Galina lleva a todo el equipo al éxito!"}
-					image={personal} />
+					text={"Nuestro amable equipo está bien educado y capacitado. ¡Y nuestras ofertas exitosas hablan por sí solas! ¡Y nuestra súper profesional Galina lleva a todo el equipo al éxito!"} />
 			</div>
+			
 			<Footer />
 		</div>
 	);

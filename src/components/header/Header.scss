@@ -1,6 +1,7 @@
 .nav{
 	width: 100vw;
 	height: fit-content;
+	// height: minmax(50px, 100px);
 	background-color: rgb(84,84,84);
 	position: fixed;
 	ul{
@@ -14,6 +15,9 @@
 		color: white;
 		li{ 
 			a{
+				display: flex;
+				height: 40px;
+				align-items: center;
 				color: white;
 				transition: all .2s;
 					&:hover{

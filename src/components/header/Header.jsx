@@ -11,7 +11,7 @@ function Header() {
 	return (
 		<div className="nav">
 			<ul className='ul-first'>
-				<AnchorLink href="#foto" className="logo"><AiOutlineHome /></AnchorLink>
+				<AnchorLink href="#foto" className="logo" style={{fontSize:"1.5em"}}><AiOutlineHome /></AnchorLink>
 				<li className="alq"><AnchorLink href="#alq">ALQUILER/VENTA</AnchorLink> </li>
 				<li className="detalles"><AnchorLink href="#detalles">DETALLES</AnchorLink></li>
 				<li className="contacto"><AnchorLink href="#contacto">CONTACTO</AnchorLink></li>

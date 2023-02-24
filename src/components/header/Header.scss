@@ -1,7 +1,6 @@
 .nav{
 	width: 100vw;
 	height: fit-content;
-	// height: minmax(50px, 100px);
 	background-color: rgb(84,84,84);
 	position: fixed;
 	ul{
@@ -11,7 +10,6 @@
 		justify-content: space-around;
 		font-family: 'Montserrat', sans-serif;
 		font-size: 1.5em;
-		font-weight: 500;
 		color: white;
 		li{ 
 			a{
